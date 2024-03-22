@@ -1,0 +1,358 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.main {
+    background-image: url(./images/one-page-slider-01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: none;
+}
+
+.header {
+    border-bottom: 1px solid rgb(206, 204, 204);
+}
+
+.rot {
+    position: absolute;
+    top: 70%;
+    left: -5px;
+    background: none;
+    transform-origin: 0 0;
+    transform: rotate(-90deg);
+
+}
+
+.tag::before {
+    content: "";
+    position: absolute;
+    top: 12px;
+    width: 20px;
+    height: 2px;
+    left: 10px;
+    background-color: black;
+}
+
+.content1 {
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.content2 {
+    margin-left: 120px;
+    margin-top: -300px;
+    padding: 0px 100px 100px 0px;
+
+}
+.content3{
+    position: absolute;
+    margin-left: 1330px;
+margin-top: 200px;
+color: gray;
+
+}
+
+.head1 {
+    position: absolute;
+    top: -50px;
+    left: 400px;
+}
+
+.about-tag::before {
+    content: "";
+    position: absolute;
+    top: 11px;
+    width: 20px;
+    height: 2px;
+    background-color: black;
+    left: 0px;
+}
+
+.fashion::before {
+    content: "";
+    position: absolute;
+    top: 50px;
+    width: 20px;
+    height: 2px;
+    background-color: black;
+    left: 35px;
+}
+
+.blog-tag::before {
+    content: "";
+    position: absolute;
+    top: 98%;
+    width: 20px;
+    height: 2px;
+    background-color: black;
+    left: 0px;
+}
+
+.contact {
+    position: relative;
+    color: white;
+
+}
+
+.contact::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: white;
+
+}
+
+.contact12 {
+    position: absolute;
+    top: 0px;
+}
+
+label {
+    color: gray;
+}
+
+input[type="text"] {
+
+    background-color: transparent;
+    border-bottom: 3px solid gray;
+    margin: 20px 0px;
+    width: 300px;
+}
+
+input[type="email"] {
+    background-color: transparent;
+    border: none;
+}
+
+.footer-contact {
+    border-bottom: 1px solid rgb(206, 204, 204);
+    padding-bottom: 2px;
+}
+
+textarea {
+    background-color: transparent;
+    border-bottom: 3px solid gray;
+    width: 300px;
+}
+
+.head-nav:hover {
+    border-bottom: 2px solid black;
+}
+
+.footer-main {
+    color: gray;
+}
+
+.footer-tag {
+    margin: 20px 100px;
+}
+
+.payment {
+    margin-top: -20px;
+    padding: 20px 110px;
+    color: gray;
+}
+.icon{
+    display: none;
+}
+.tag-dis{
+    position: absolute;
+    top: 20px;
+    left: 10px;
+}
+.heart{
+    position: absolute;
+    top: 20px;
+    left: 350px;
+    display: none;
+}
+@media screen and (max-width:700px) {
+    .main {
+        background-image: url(./images/one-page-slider-01.jpg);
+        background-repeat: no-repeat;
+        background-size: 580px 600px;
+        position: relative;
+        display: block !important;
+    }
+
+    .head2{
+        display: none;
+    }
+    .head3{
+        display: block;
+    }
+
+    nav {
+        background-color: white;
+    }
+
+    .brand {
+        font-size: 30px;
+        margin-bottom: 6px;
+        line-height: 32px;
+    }
+
+    .content2 {
+        margin-left: 50px;
+        margin-top: -400px;
+        padding: 0px 0px 100px 0px;
+
+    }
+
+    .content2>p {
+        font-size: 13px;
+        margin-bottom: 2px;
+    }
+
+    .content2 del span {
+        font-size: 15px;
+        margin-top: 0px;
+    }
+
+    .rot {
+        top: 85%;
+    }
+
+    .head1 {
+        position: absolute;
+        top: -60px;
+        left: 40px;
+        font-size: 80px;
+    }
+
+    .gift {
+        margin: 40px 100px;
+        display: block !important;
+    }
+
+    .gift div {
+        margin-bottom: 10px;
+    }
+
+    .images>div {
+        display: block !important;
+    }
+
+    .images img {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .about {
+        margin: 20px !important;
+        display: block !important;
+    }
+
+    .fashion-brand {
+        display: block !important;
+        margin: 20px 0px;
+    }
+
+    .fashion-brand>div {
+        padding: 2px;
+    }
+
+    .fashion-brand p {
+        padding: 2px;
+    }
+
+    .fashion::before {
+        content: "";
+        position: absolute;
+        top: 15px;
+        width: 20px;
+        height: 2px;
+        background-color: black;
+        left: 0px;
+    }
+
+    .product {
+        margin: 10px 10px;
+    }
+
+    .product1 {
+        display: block !important;
+    }
+
+    .product2 {
+        display: block !important;
+    }
+
+    .testimonial {
+        margin: 10px 10px !important;
+    }
+
+    .test1 {
+        display: none !important;
+    }
+
+    .contact {
+        height: 100%;
+    }
+
+    .contact1 {
+        display: block !important;
+    }
+
+    .contact1 img {
+        width: 100%;
+        height: 600px;
+    }
+
+    input[type="text"] {
+        width: 300px;
+    }
+
+    .footer-tag {
+        display: block !important;
+        margin: 50px;
+        text-align: center;
+    }
+
+    .footer-tag i {
+        margin: 20px 10px;
+        font-size: 20px
+    }
+
+    .footer-h1 {
+        display: none;
+    }
+
+    .footer-tag {
+        margin: 20px;
+
+    }
+
+    .footer-tag i {
+        margin-left: 10px;
+    }
+
+    .payment {
+        padding: 20px 80px;
+    }
+
+    .payment>div {
+        display: block !important;
+    }
+    .icon{
+        display: block;
+       
+    }
+    .icon i{
+        padding: 10px 87px !important;
+    }
+    .heart{
+        display: block;
+    }
+    .content3{
+        position: absolute;
+        margin-left: 150px;
+    margin-top: 400px;
+    display: flex;
+    color: gray;
+    gap: 20px;
+    
+    }
+}
